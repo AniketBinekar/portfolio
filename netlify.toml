@@ -1,0 +1,14 @@
+
+[build]
+  command = "npm run build"
+  publish = "build"  # Adjust the directory where your built files are located
+
+[context.production.environment]
+  # Add any production environment variables here
+  # For example:
+  # API_KEY = "your_production_api_key"
+
+[context.development.environment]
+  # Add any development environment variables here
+  # For example:
+  # API_KEY = "your_development_api_key"
